@@ -68,10 +68,10 @@ test-publish: cythonize
 	twine upload --repository testpypi dist/dependency-injector-$(VERSION)*
 
 publish:
-	# Merge release to master branch
-	git checkout master
-	git merge --no-ff release/$(VERSION) -m "Merge branch 'release/$(VERSION)' into master"
-	git push origin master
+	# Merge release to main branch
+	git checkout main
+	git merge --no-ff release/$(VERSION) -m "Merge branch 'release/$(VERSION)' into main"
+	git push origin main
 	# Create and upload tag
 	git tag -a $(VERSION) -m 'version $(VERSION)'
 	git push --tags

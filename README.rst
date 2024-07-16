@@ -1,8 +1,3 @@
-.. figure:: https://raw.githubusercontent.com/wiki/ets-labs/python-dependency-injector/img/logo.svg
-   :target: https://github.com/ets-labs/python-dependency-injector
-
-| 
-
 .. image:: https://img.shields.io/pypi/v/dependency_injector.svg
    :target: https://pypi.org/project/dependency-injector/
    :alt: Latest Version
@@ -43,14 +38,14 @@
    :target: https://coveralls.io/github/ets-labs/python-dependency-injector?branch=master
    :alt: Coverage Status
 
-What is ``Dependency Injector``?
+What is ``ding``?
 ================================
 
-``Dependency Injector`` is a dependency injection framework for Python.
+**ding** (**D**\ependency **I**\njection - **N**\ext **G**\en) is a dependency injection framework for Python.
 
 It helps implement the dependency injection principle.
 
-Key features of the ``Dependency Injector``:
+Key features of the ``ding``:
 
 - **Providers**. Provides ``Factory``, ``Singleton``, ``Callable``, ``Coroutine``, ``Object``,
   ``List``, ``Dict``, ``Configuration``, ``Resource``, ``Dependency``, and ``Selector`` providers
@@ -213,7 +208,7 @@ Found a bug?
  - Open a `Github Issue <https://github.com/ets-labs/python-dependency-injector/issues>`_
 
 Want to help?
- - |star| Star the ``Dependency Injector`` on the `Github <https://github.com/ets-labs/python-dependency-injector/>`_
+ - |star| Star the ``ding`` on the `Github <https://github.com/ets-labs/python-dependency-injector/>`_
  - |new| Start a new project with the ``Dependency Injector``
  - |tell| Tell your friend about the ``Dependency Injector``
 
@@ -221,7 +216,7 @@ Want to contribute?
  - |fork| Fork the project
  - |pull| Open a pull request to the ``develop`` branch
 
-.. _PyPi: https://pypi.org/project/dependency-injector/
+.. _PyPi: https://pypi.org/project/ding/
 
 .. |star| unicode:: U+2B50 U+FE0F .. star sign1
 .. |new| unicode:: U+1F195 .. new sign

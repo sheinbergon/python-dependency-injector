@@ -1,4 +1,4 @@
-"""`Dependency injector` setup script."""
+"""`ding` setup script."""
 
 import os
 import re
@@ -36,16 +36,16 @@ if os.environ.get("DEPENDENCY_INJECTOR_DEBUG_MODE") == "1":
     defined_macros["CYTHON_CLINE_IN_TRACEBACK"] = 1
 
 
-setup(name="dependency-injector",
+setup(name="ding",
       version=version,
-      description="Dependency injection framework for Python",
+      description="Next generation dependency injection framework for Python",
       long_description=description,
       author="Roman Mogylatov",
       author_email="rmogilatov@gmail.com",
-      maintainer="Roman Mogylatov",
-      maintainer_email="rmogilatov@gmail.com",
-      url="https://github.com/ets-labs/python-dependency-injector",
-      download_url="https://pypi.python.org/pypi/dependency_injector",
+      maintainer="Idan Sheinberg",
+      maintainer_email="ishinberg0@gmail.com",
+      url="https://github.com/sheinbergon/python-dependency-injector",
+      download_url="https://pypi.python.org/pypi/ding",
       packages=[
           "dependency_injector",
           "dependency_injector.ext",
