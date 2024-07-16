@@ -8,6 +8,7 @@ jobs:
     name: Run tests on legacy versions
     runs-on: ubuntu-20.04
     strategy:
+      fail-fast: false
       matrix:
         python-version: [ 3.7, 3.8, pypy3.9 ]
     steps:
@@ -24,6 +25,7 @@ jobs:
     name: Run tests
     runs-on: ubuntu-22.04
     strategy:
+      fail-fast: false
       matrix:
         python-version: [ 3.9, '3.10', 3.11, pypy3.10 ]
     steps:
@@ -58,6 +60,7 @@ jobs:
     name: Run linters
     runs-on: ubuntu-22.04
     strategy:
+      fail-fast: false
       matrix:
         toxenv: [ flake8, pydocstyle, mypy, pylint ]
     steps:
