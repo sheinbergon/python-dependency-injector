@@ -43,8 +43,6 @@ What is ``ding``?
 
 **ding** (**D**\ependency **I**\njection - **N**\ext **G**\en) is a dependency injection framework for Python.
 
-It helps implement the dependency injection principle.
-
 Key features of the ``ding``:
 
 - **Providers**. Provides ``Factory``, ``Singleton``, ``Callable``, ``Coroutine``, ``Object``,
